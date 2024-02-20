@@ -1,0 +1,9 @@
+body { background-color: pink; 
+    color: white;
+    font-family: Arial, Verdana, sans-serif;
+    margin: 20px; }
+h1 { color: yellow; text-transform: uppercase;}
+h2 { color: maroon}
+p { font-size: .90em;
+	text-indent: 0.5em;}
+li{ color:cornsilk}
