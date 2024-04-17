@@ -1,0 +1,37 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    font-family: Georgia, serif;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    overflow: hidden;
+}
+
+th {
+    background-color: lightpink;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+td[rowspan="2"] {
+    background-color: lightblue;
+    font-weight: bold;
+}
